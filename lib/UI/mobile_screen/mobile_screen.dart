@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-import '../Pages/Home.dart';
-import '../Pages/Message.dart';
-import '../Pages/NotificationPage.dart';
-import '../Pages/Search.dart';
-import '../Pages/Space.dart';
+import '../../Util/Pages/Home.dart';
+import '../../Util/Pages/Message.dart';
+import '../../Util/Pages/NotificationPage.dart';
+import '../../Util/Pages/Search.dart';
+import '../../Util/Pages/Space.dart';
 
-class Homepage extends StatefulWidget {
-  const Homepage({super.key});
+class MobileScreen extends StatefulWidget {
+  const MobileScreen({super.key});
 
   @override
-  State<Homepage> createState() => _HomepageState();
+  State<MobileScreen> createState() => _MobileScreenState();
 }
 
-class _HomepageState extends State<Homepage> {
+class _MobileScreenState extends State<MobileScreen> {
   int _selectedIndex = 0;
 
   @override
